@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buddies</title>
+    <link rel="shortcut icon" href="https://www.freeiconspng.com/thumbs/calculator-icon/calculator-icon-0.png">
+   
+    
+    <style>
+        body{
+            background-color: #1F252E;
+        }
+        h1{
+    font-size: 37px;
+    color: #00E8F8;
+    font-style:italic ;
+    text-decoration: wavy  ;
+    text-shadow: 3px 3px 7px rgb(83, 36, 211);
+    font-weight: 900;
+    margin: 0;
+    padding-right: 41rem;
+
+
+        }
+        .come{
+            background-color: rgb(159, 168, 183);
+            width: 54vh;
+            height: 79vh;
+            padding: 10px;
+            margin: 30px;
+            border-radius: 50px;
+            border:5px solid #1F252E;
+            box-shadow: 20px 20px 20px rgb(50, 61, 57);
+            
+        }
+        .input{
+            width: 94%;
+            border: 3px solid rgb(240, 232, 232);
+            background-color: rgb(240, 232, 232);
+            box-shadow:inset -20px -20px 36px -1px rgba(131, 86, 86, 0.3);
+            color: rgb(0, 0, 0) ;
+            box-shadow: inset 3px 0px 12px 0px ;
+            border-radius: 25px;
+            font-size: 47px;
+            font-weight: 550;
+            height: 92px;
+        }
+        
+        button{
+            margin: 7px;
+            padding: 3px;
+            width: 67px;
+            height: 67px;
+            align-items: center;
+            font-size: 33px;
+            font-weight: bold;
+            border: 1px solid rgb(0, 0, 0);
+            box-shadow: 11px 12px 1px black;
+            border-radius: 50%;
+            outline: none;
+        }
+        #ap{
+            color: rgb(255, 0, 0);
+            background-color: rgb(216, 185, 185);
+        }
+        #clear{
+            background-color: rgb(184, 167, 146);
+            color: rgb(252, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <div class="container" align="center">
+        <h1>Buddies Calculator</h1>
+            <div class="come">
+                <div class="row">
+                <input class="input" type="text" >
+                </div>
+                <div class="row">
+                <button class="button"  id="clear">C</button>
+                <button class="button" >%</button>
+                <button class="button" >x</button>
+                <button class="button"  id="ap">/</button>
+                </div>
+                <div class="row">
+                <button class="button" >7</button>
+                <button class="button" >8</button>
+                <button class="button" >9</button>
+                <button class="button"  id="ap">*</button>
+                </div>
+                <div class="row">
+                <button class="button" >4</button>
+                <button class="button" >5</button>
+                <button class="button" >6</button>
+                <button class="button"  id="ap">-</button>
+                </div>
+                <div class="row">
+                <button class="button" >1</button>
+                <button class="button" >2</button>
+                <button class="button" >3</button>
+                <button class="button"  id="ap">+</button>
+                </div>
+                <div class="row">
+                <button class="button" >00</button>
+                <button class="button" >0</button>
+                <button class="button" >.</button>
+                <button class="button"  id="ap">=</button>
+                </div>
+                
+
+
+            </div>
+        </form>
+        
+
+    </div>
+ <script src="calculator.js"></script>
+</body>
+</html>
